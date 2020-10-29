@@ -1,0 +1,21 @@
+create database dbFilmes;
+
+create table tbTitulos(
+codTit int not null auto_increment,
+nome varchar(100),
+tipo varchar(50),
+locado bit,
+primary key(codTit));
+
+insert into tbTitulos(nome,tipo,locado)values('O poderoso chefao','Acao',1);
+insert into tbTitulos(nome,tipo,locado)values('Duro de Matar','Aventura',0);
+insert into tbTitulos(nome,tipo,locado)values('Matrix','Ficcao Cientifica',1);
+insert into tbTitulos(nome,tipo,locado)values('Toy Story 4','Animacao',1);
+insert into tbTitulos(nome,tipo,locado)values('Harry Potter','Aventura',1);
+insert into tbTitulos(nome,tipo,locado)values('Doom','Acao',0);
+insert into tbTitulos(nome,tipo,locado)values('A fuga das galinhas','Animacao',1);
+insert into tbTitulos(nome,tipo,locado)values('A noiva cadaver','Animacao',1);
+insert into tbTitulos(nome,tipo,locado)values('Doce vinganca','Horror',1);
+insert into tbTitulos(nome,tipo,locado)values('Demonio do elevador','Terror',1);
+insert into tbTitulos(nome,tipo,locado)values('Os outros','Suspense',1);
+insert into tbTitulos(nome,tipo,locado)values('Viva, a vida e uma festa','Animacao',1);
